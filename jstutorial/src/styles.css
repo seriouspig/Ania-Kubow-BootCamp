@@ -1,0 +1,38 @@
+body {
+    background-color: cyan;
+}
+
+.face {
+    position: absolute;
+    /* left: 100px; */
+    /* top: 100px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.eye {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.eye-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.pupil {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+
+}
