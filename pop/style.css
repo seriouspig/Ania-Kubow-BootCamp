@@ -4,15 +4,27 @@ html, body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    flex-direction: column-reverse
 }
 
 .box {
     width: 600px;
     height: 300px;
+    line-height: 300px;
     border: crimson solid 30px;
+    background-color: darkred;
     border-radius: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+     color: white;
+     font-size: 40px;
+    text-align: center;
 }
 
 .top {
-    
+    height: 100px;
+    width: 300px;
+    background-color: crimson;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
