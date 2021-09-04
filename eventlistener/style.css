@@ -1,0 +1,31 @@
+body {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.circle {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background-color: indigo;
+    margin-top: 30px;
+}
+
+.hexagon {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+}
+
+.red-hexagon {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+}
+
+
+

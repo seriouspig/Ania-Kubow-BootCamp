@@ -1,0 +1,12 @@
+body {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
